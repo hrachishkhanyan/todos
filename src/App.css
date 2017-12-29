@@ -1,0 +1,95 @@
+i {
+  margin: 0;
+  float:right;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 41px !important;
+}
+
+label {
+  margin-left: 10px;
+  color: #9f3a38;
+}
+.input-edit1 {
+  display: block ;
+
+}
+
+.input-edit.title input {
+  border: none !important;
+  height: 26px;
+  font-size: 13pt;
+}
+
+.input-edit.details input {
+  border: none !important;
+  height: 26px;
+  font-size: 1rem;
+}
+
+.button-edit {
+  background: #fff !important;
+  margin: 0;
+  float:right;
+}
+
+.input-add {
+  margin-top: 10px !important;
+  margin-left: 26% !important;
+}
+
+.form {
+  background-color: #ffd05b;
+  height: 150px;
+}
+
+.header {
+font-size: 13pt;
+}
+
+.segment:hover {
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.button {
+  margin-left: 26%;
+  margin-top: 10px;
+}
+
+.task {
+  display: inline !important;
+}
+
+.checkbox {
+  float:right;
+  margin-right: 17px;
+}
+
+.task-board {
+  margin:auto
+}
+
+.task-checked {
+  text-decoration: line-through;
+  color: #c5cbd6
+}
+
+@media only screen and (max-width: 720px) {
+  .segments {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .input {
+    margin-left: 32% !important;
+  }
+
+  .button {
+    margin-left: 32%;
+    margin-top: 10px;
+  }
+
+
+}
