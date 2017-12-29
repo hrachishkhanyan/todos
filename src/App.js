@@ -15,7 +15,7 @@ const INITIAL_LIST = [{title: 'Worry all day', details: 'Everyday', checked: fal
 
 const IN_PROGRESS_LIST = [{title: 'Yesterday when I was', details: 'Young', checked: false, isEditing: true},
                       {title: 'Eat more hamster', details: 'Slice it', checked: false, isEditing: true}];
-
+//Do this onDragEnd
 const rearrangeTasks = function(taskList, startIndex, endIndex) {
   const result = [...taskList];
 
@@ -37,7 +37,7 @@ class App extends Component {
   onDragStart = () => {
     console.log('dragging');
   };
-
+  
   onDragEnd = (result) => {
     if(!result.destination) {
       return;
